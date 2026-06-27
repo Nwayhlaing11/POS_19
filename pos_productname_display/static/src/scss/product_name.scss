@@ -1,0 +1,20 @@
+.rightpane .product {
+    height: auto;
+    min-height: 0;
+
+    .product-content {
+        min-height: 3rem;
+    }
+
+    .product-name {
+        display: block;
+        -webkit-line-clamp: unset;
+        overflow: visible;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .product-name.no-image {
+        aspect-ratio: auto;
+    }
+}
